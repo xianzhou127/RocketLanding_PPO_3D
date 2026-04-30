@@ -1,0 +1,7 @@
+gymnasium
+mujoco
+numpy
+scipy
+torch
+matplotlib
+tensorboard

@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Training outputs / large generated artifacts
+model/
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# MuJoCo/runtime logs
+MUJOCO_LOG.TXT
+**/MUJOCO_LOG.TXT
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+MJMODEL.TXT
+*.blend1
