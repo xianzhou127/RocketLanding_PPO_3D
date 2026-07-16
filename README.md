@@ -82,14 +82,3 @@ python PPO_agent.py
 export LIBGL_ALWAYS_SOFTWARE=1
 ```
 
-## Notes
-
-大型训练/运行产物没有上传到仓库，包括：
-
-- `model/`
-- `runs/`
-- `MJMODEL.TXT`
-- `*.blend1` 备份文件
-- Python 缓存与 MuJoCo 运行日志
-
-这样可以让仓库保持轻量，同时保留核心代码、MuJoCo 模型资源和结果展示文件。
